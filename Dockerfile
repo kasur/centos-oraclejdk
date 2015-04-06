@@ -9,4 +9,6 @@ RUN curl -v -j -k -L -H "Cookie: oraclelicense=accept-securebackup-cookie" http:
 
 RUN rpm -ivh jdk-8u40-linux-x64.rpm
 
+WORKDIR /
+
 CMD ["/bin/bash"]
