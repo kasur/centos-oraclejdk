@@ -9,7 +9,4 @@ RUN curl -v -j -k -L -H "Cookie: oraclelicense=accept-securebackup-cookie" http:
 
 RUN rpm -ivh jdk-8u40-linux-x64.rpm
 
-RUN useradd --no-create-home akka-cluster
-
-USER akka-cluster:akka-cluster
-
+CMD ["/bin/bash"]
