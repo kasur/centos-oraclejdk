@@ -1,4 +1,4 @@
-FROM centos:centos7.1.503
+FROM centos:centos7.1.1503
 MAINTAINER Evgeny Rusak "kasured@exadel.com"
 
 ENV JAVA_PKG_VERSION 8u40-linux-x64
