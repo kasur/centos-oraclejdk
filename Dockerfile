@@ -1,5 +1,5 @@
 FROM centos:centos7
-MAINTAINER Evgeny Rusak "kasured@exadel.com"
+MAINTAINER Evgeny Rusak "kasured@gmail.com"
 
 ENV JAVA_PKG_BUILD_V 8u40-b26
 ENV JAVA_PKG_V 8u40-linux-x64
